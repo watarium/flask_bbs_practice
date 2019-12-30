@@ -1,0 +1,36 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 117-392-103
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:51:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:51:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:51:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:51:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:51:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 117-392-103
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:52:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2019 18:53:00] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/watarium/PycharmProjects/flask_bbs_practice/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 117-392-103
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 602-767-764
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger pin code: 117-392-103
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2019 09:24:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2019 09:24:26] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)

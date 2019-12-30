@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BBS for Beer Belly</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+
+<body>
+      <h2>Please leave your comments.</h2>
+      <form action="/result" method="post">
+          <input type="hidden" name="comment_box">
+          <label for="comment_">Comment</label>
+          <textarea name="comment_data" rows="6" cols="100"></textarea>
+          <p></p>
+          <label for="name">Name</label>
+          <input type="text" name="name">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      {% block body %}
+      <form method="post" action="">
+        　<table class="table table-hover">
+              <thead class="thead-dark">
+                  <tr>
+                      <th>Date</th>
+                      <th>Name</th>
+                      <th>Comment</th>
+                      </tr>
+                  </thead>
+              <tbody>
+                  {% for th in lines %}
+                  <tr>
+                      <td width="20%">{{ th.pub_date }}</td>
+                      <td width="30%">{{ th.name }}</td>
+                      <td width="50%">{{ th.comment }}</td>
+                      </tr>
+                  {% endfor %}
+                  </tbody>
+              </table>
+          </form>
+      {% endblock %}
+     <p></p>
+</body> 
+
+</html>
